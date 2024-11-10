@@ -27,8 +27,11 @@ title.style.color = '#FFFFFF';
 document.body.appendChild(title);
 
 const gameContainer = document.createElement('div');
-gameContainer.style.display = 'inline-block';
-gameContainer.style.marginTop = '20px';
+gameContainer.style.display = 'flex';
+gameContainer.style.justifyContent = 'center';
+gameContainer.style.alignItems = 'center';
+gameContainer.style.flexDirection = 'column';
+gameContainer.style.height = '100vh'; 
 document.body.appendChild(gameContainer);
 
 const winnerDisplay = document.createElement('div');
